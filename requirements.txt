@@ -1,0 +1,5 @@
+langgraph
+groq
+pinecone
+sentence-transformers
+python-dotenv
