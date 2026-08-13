@@ -3,4 +3,6 @@ groq
 pinecone
 sentence-transformers
 python-dotenv
-pdfplumber
+fastapi
+uvicorn
+python-multipart
