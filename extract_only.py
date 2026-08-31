@@ -16,6 +16,7 @@ def extract_ingredients_from_image(image_path: str) -> list[str]:
         model="qwen/qwen3.6-27b",
         reasoning_effort="none",
         response_format={"type": "json_object"},
+        max_completion_tokens=4096,  # <-- the fix: prevents truncation on long ingredient lists
         messages=[{
             "role": "user",
             "content": [

@@ -19,6 +19,7 @@ def extract_ingredients(state: AgentState) -> AgentState:
         model="qwen/qwen3.6-27b",
         reasoning_effort="none",
         response_format={"type": "json_object"},
+        max_completion_tokens=4096,
         messages=[{
             "role": "user",
             "content": [
@@ -56,17 +57,23 @@ def normalize_ingredients(state: AgentState) -> AgentState:
 
 
 def kb_lookup(state: AgentState) -> AgentState:
+    names = [item["resolved_name"] for item in state["normalized_ingredients"]]
+    if not names:
+        return {**state, "confirmed_hits": [], "unmatched": []}
+
+    # Batch-encode everything in one call instead of looping -- this was
+    # previously N separate compute calls; now it's one.
+    vectors = embed_model.encode(names, normalize_embeddings=True)
+
     confirmed, unmatched = [], []
-    for item in state["normalized_ingredients"]:
-        vec = embed_model.encode([item["resolved_name"]], normalize_embeddings=True)[0].tolist()
-        result = kb_index.query(vector=vec, top_k=1, include_metadata=True)
+    for name, vec in zip(names, vectors):
+        result = kb_index.query(vector=vec.tolist(), top_k=1, include_metadata=True)
         match = result["matches"][0] if result["matches"] else None
         if match and match["score"] >= 0.80:
-            confirmed.append({"ingredient": item["resolved_name"], "match": match["metadata"], "score": match["score"]})
+            confirmed.append({"ingredient": name, "match": match["metadata"], "score": match["score"]})
         else:
-            unmatched.append(item["resolved_name"])
+            unmatched.append(name)
     return {**state, "confirmed_hits": confirmed, "unmatched": unmatched}
-
 
 def reason_unmatched(state: AgentState) -> AgentState:
     reasoned = [
@@ -76,11 +83,42 @@ def reason_unmatched(state: AgentState) -> AgentState:
     return {**state, "reasoned_hits": reasoned}
 
 
+def confidence_label(score: float) -> str:
+    """Tiers informed directly by eval results: a correct coal-tar match scored
+    0.800, a false positive (hydrochloric acid) scored 0.825 -- anything in that
+    narrow band gets an explicit caveat rather than false confidence."""
+    if score >= 0.95:
+        return "High confidence"
+    elif score >= 0.85:
+        return "Moderate confidence"
+    else:
+        return "Low confidence - borderline match, verify manually"
+
+
 def synthesize_report(state: AgentState) -> AgentState:
+    flagged = []
+    for hit in state["confirmed_hits"]:
+        match = hit["match"]
+        flagged.append({
+            "ingredient": hit["ingredient"],
+            "classification": match.get("toxicity_type", "Unknown"),
+            "source": match.get("source", "IARC"),
+            "confidence_score": round(min(hit["score"], 1.0), 3),
+            "confidence_label": confidence_label(hit["score"]),
+        })
+
+    if flagged:
+        summary = f"⚠️ {len(flagged)} ingredient(s) flagged as known/possible carcinogens."
+    else:
+        summary = "✅ No known carcinogens identified in this product's ingredient list."
+
     report = {
-        "confirmed": state["confirmed_hits"],
-        "reasoned": state["reasoned_hits"],
-        "summary": f"{len(state['confirmed_hits'])} confirmed hit(s), "
-                   f"{len(state['unmatched'])} ingredient(s) not yet checked.",
+        "summary": summary,
+        "flagged_ingredients": flagged,
+        "ingredients_not_evaluated": len(state["unmatched"]),
+        "_details": {  # full technical breakdown, kept but not the headline
+            "confirmed_hits": state["confirmed_hits"],
+            "reasoned_hits": state["reasoned_hits"],
+        },
     }
     return {**state, "report": report}

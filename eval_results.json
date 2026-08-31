@@ -1,0 +1,1925 @@
+[
+  {
+    "image": "image_corpus\\Avene_pt.jpg",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "TITANIUM DIOXIDE",
+      "ZINC OXIDE"
+    ],
+    "verified_carcinogen_hits": [
+      {
+        "ingredient": "TITANIUM DIOXIDE",
+        "cas_number": "13463-67-7",
+        "matched_name": "Titanium dioxide",
+        "toxicity_type": "IARC Group 2B"
+      }
+    ],
+    "agent_response": {
+      "error": "HTTPSConnectionPool(host='ingredient-agent-247055277121.us-central1.run.app', port=443): Read timed out. (read timeout=60)"
+    }
+  },
+  {
+    "image": "image_corpus\\Bisleri_ne.png",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "Treated Water",
+      "Minerals",
+      "Salts of Calcium",
+      "Magnesium",
+      "Potassium"
+    ],
+    "verified_carcinogen_hits": [],
+    "agent_response": {
+      "error": "HTTPSConnectionPool(host='ingredient-agent-247055277121.us-central1.run.app', port=443): Read timed out. (read timeout=60)"
+    }
+  },
+  {
+    "image": "image_corpus\\Canderal_pe.jpg",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "Lactose",
+      "aspartaam",
+      "aspartaam APL",
+      "benzoesuur",
+      "natriumbenzoaat",
+      "acetylsulfam K",
+      "acetylsulfam K (E950)",
+      "stabilisator",
+      "microcristalline cellulose",
+      "verbinding natrium carboxymethylcellulose",
+      "magnesiumstearaat"
+    ],
+    "verified_carcinogen_hits": [],
+    "agent_response": {
+      "error": "HTTPSConnectionPool(host='ingredient-agent-247055277121.us-central1.run.app', port=443): Read timed out. (read timeout=60)"
+    }
+  },
+  {
+    "image": "image_corpus\\DHS_nt.jpg",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "Salicylic Acid USP 3%",
+      "Purified Water",
+      "Sodium C14-16 Olefin Sulfonate",
+      "TEA Lauryl Sulfate",
+      "Cocamidopropyl Betaine",
+      "Cocamidopropyl Hydroxysultaine",
+      "PEG-8 Disteareate",
+      "Disodium EDTA"
+    ],
+    "verified_carcinogen_hits": [],
+    "agent_response": {
+      "confirmed": [],
+      "reasoned": [
+        {
+          "ingredient": "Salicylic Acid USP 3%",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Purified Water",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Sodium C14-16 Olefin Sulfonate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "TEA Lauryl Sulfate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Cocamidopropyl Betaine",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Cocamidopropyl Hydroxysultaine",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "PEG-8 Disteareate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Disodium EDTA",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        }
+      ],
+      "summary": "0 confirmed hit(s), 8 ingredient(s) not yet checked."
+    }
+  },
+  {
+    "image": "image_corpus\\DHS_tar_pt.jpg",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "Purified Water",
+      "Sodium Laureth Sulfate",
+      "Cocamidopropyl Hydroxysultaine",
+      "PEG 8 Distearete",
+      "Sodium Chloride",
+      "Citric Acid"
+    ],
+    "verified_carcinogen_hits": [],
+    "agent_response": {
+      "confirmed": [],
+      "reasoned": [
+        {
+          "ingredient": "Purified Water",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Sodium Laureth Sulfate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Cocamidopropyl Hydroxysultaine",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "PEG 8 Disteareate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Sodium Chloride",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Citric Acid",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        }
+      ],
+      "summary": "0 confirmed hit(s), 6 ingredient(s) not yet checked."
+    }
+  },
+  {
+    "image": "image_corpus\\Neutrogena_nt.jpg",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "Salicylic Acid",
+      "Water",
+      "Sodium C14-16 Olefin Sulfonate",
+      "Cocamidopropyl Betaine",
+      "Polyquaternium-22",
+      "Sodium Citrate",
+      "Sodium Lauroyl Sarcosinate",
+      "Hexylene Glycol",
+      "Linoamidopropyl PG-Dimonium Chloride Phosphate"
+    ],
+    "verified_carcinogen_hits": [],
+    "agent_response": {
+      "confirmed": [],
+      "reasoned": [
+        {
+          "ingredient": "Salicylic Acid",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Water",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Sodium C14-16 Olefin Sulfonate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Cocamidopropyl Betaine",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Polyquaternium-22",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Sodium Citrate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Sodium Lauroyl Sarcosinate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Hexylene Glycol",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Linoamidopropyl PG-Dimonium Chloride Phosphate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        }
+      ],
+      "summary": "0 confirmed hit(s), 9 ingredient(s) not yet checked."
+    }
+  },
+  {
+    "image": "image_corpus\\Nizoral_nt.png",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "benzyl alcohol",
+      "BHT",
+      "blue 1",
+      "citric acid",
+      "cocamide MEA",
+      "fragrance",
+      "glycol distearate",
+      "hydrochloric acid",
+      "hydroxypropyl methylcellulose",
+      "polyquaternium-7",
+      "sodium benzoate",
+      "sodium chloride",
+      "sodium cocoyl sarcosinate",
+      "sodium hydroxide",
+      "sodium laureth sulfate",
+      "tetrasodium EDTA",
+      "water"
+    ],
+    "verified_carcinogen_hits": [],
+    "agent_response": {
+      "confirmed": [
+        {
+          "ingredient": "hydrochloric acid",
+          "match": {
+            "cas_number": "79-43-6",
+            "chemical_name": "Dichloroacetic acid",
+            "jurisdiction": "global",
+            "source": "IARC",
+            "toxicity_type": "IARC Group 2B"
+          },
+          "score": 0.825346828
+        }
+      ],
+      "reasoned": [
+        {
+          "ingredient": "benzyl alcohol",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "BHT",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "blue 1",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "citric acid",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "cocamide MEA",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "fragrance",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "glycol distearate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "hydroxypropyl methylcellulose",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "polyquaternium-7",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "sodium benzoate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "sodium chloride",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "sodium cocoyl sarcosinate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "sodium hydroxide",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "sodium laureth sulfate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "tetrasodium EDTA",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "water",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        }
+      ],
+      "summary": "1 confirmed hit(s), 16 ingredient(s) not yet checked."
+    }
+  },
+  {
+    "image": "image_corpus\\Thera_pt.jfif",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "Solubilized Coal Tar Extract",
+      "Coal Tar",
+      "water",
+      "sodium laureth sulfate",
+      "cocamide MEA",
+      "cocamidopropyl betaine",
+      "laureth-4",
+      "fragrance",
+      "polysorbate 20",
+      "citric acid",
+      "sodium chloride",
+      "tetrasodium EDTA",
+      "DMDM hydantoin",
+      "caramel",
+      "red 40"
+    ],
+    "verified_carcinogen_hits": [
+      {
+        "ingredient": "Solubilized Coal Tar Extract",
+        "cas_number": "8007-45-2",
+        "matched_name": "Coal-tar distillation",
+        "toxicity_type": "IARC Group 1"
+      },
+      {
+        "ingredient": "Coal Tar",
+        "cas_number": "8007-45-2",
+        "matched_name": "Coal-tar distillation",
+        "toxicity_type": "IARC Group 1"
+      }
+    ],
+    "agent_response": {
+      "confirmed": [
+        {
+          "ingredient": "Coal Tar",
+          "match": {
+            "cas_number": "8007-45-2",
+            "chemical_name": "Coal-tar distillation",
+            "jurisdiction": "global",
+            "source": "IARC",
+            "toxicity_type": "IARC Group 1"
+          },
+          "score": 0.800435543
+        }
+      ],
+      "reasoned": [
+        {
+          "ingredient": "Solubilized Coal Tar Extract",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "water",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "sodium laureth sulfate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "cocamide MEA",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "cocamidopropyl betaine",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "laureth-4",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "fragrance",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "polysorbate 20",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "citric acid",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "sodium chloride",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "tetrasodium EDTA",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "DMDM hydantoin",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "caramel",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "red 40",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        }
+      ],
+      "summary": "1 confirmed hit(s), 14 ingredient(s) not yet checked."
+    }
+  },
+  {
+    "image": "image_corpus\\allergy_info_ne.jpg",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "enriched wheat flour",
+      "sugar",
+      "glucose-fructose",
+      "dark chocolate chunk",
+      "chocolate liquor",
+      "sugar",
+      "dextrose",
+      "cocoa butter",
+      "milk ingredients",
+      "soya lecithin",
+      "natural flavour",
+      "chocolate chips",
+      "sugar",
+      "chocolate liquor",
+      "dextrose",
+      "cocoa butter",
+      "milk ingredients",
+      "soya lecithin",
+      "salt",
+      "artificial flavour",
+      "modified palm oil",
+      "cocoa powder",
+      "canola oil",
+      "soya oil",
+      "liquid whole eggs",
+      "sodium bicarbonate",
+      "salt",
+      "baking powder",
+      "soya lecithin",
+      "natural flavour",
+      "artificial flavour"
+    ],
+    "verified_carcinogen_hits": [],
+    "agent_response": {
+      "confirmed": [],
+      "reasoned": [
+        {
+          "ingredient": "enriched wheat flour",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "sugar",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "glucose-fructose",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "dark chocolate chunk",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "chocolate liquor",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "sugar",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "dextrose",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "cocoa butter",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "milk ingredients",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "soya lecithin",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "natural flavour",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "chocolate chips",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "sugar",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "chocolate liquor",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "dextrose",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "cocoa butter",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "milk ingredients",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "soya lecithin",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "salt",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "artificial flavour",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "modified palm oil",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "cocoa powder",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "canola oil",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "soya oil",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "liquid whole eggs",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "sodium bicarbonate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "salt",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "baking powder",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "soya lecithin",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "natural flavour",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "artificial flavour",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        }
+      ],
+      "summary": "0 confirmed hit(s), 31 ingredient(s) not yet checked."
+    }
+  },
+  {
+    "image": "image_corpus\\bbread_ne.png",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "Whole Wheat Flour",
+      "Refined Wheat Flour",
+      "Water",
+      "Yeast",
+      "Sugar",
+      "Edible Common Salt",
+      "Edible Vegetable Oil",
+      "Palm",
+      "Wheat Gluten",
+      "Wheat Bran",
+      "Soya Flour",
+      "Emulsifiers",
+      "471",
+      "481",
+      "Class II Preservative",
+      "282",
+      "Condensed Milk",
+      "Antioxidant",
+      "300",
+      "Improver",
+      "1330",
+      "Acidity Regulator",
+      "260"
+    ],
+    "verified_carcinogen_hits": [],
+    "agent_response": {
+      "confirmed": [],
+      "reasoned": [
+        {
+          "ingredient": "Whole Wheat Flour",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Refined Wheat Flour",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Water",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Yeast",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Sugar",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Edible Common Salt",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Edible Vegetable Oil",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Palm",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Wheat Gluten",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Wheat Bran",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Soya Flour",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Emulsifiers",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "471",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "481",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Class II Preservative",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "282",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Condensed Milk",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Antioxidant",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "300",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Improver",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "1330",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Acidity Regulator",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "260",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        }
+      ],
+      "summary": "0 confirmed hit(s), 23 ingredient(s) not yet checked."
+    }
+  },
+  {
+    "image": "image_corpus\\coke_pe.jfif",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "Carbonated Water",
+      "Citric Acid",
+      "Potassium Citrate",
+      "Natural Flavouring",
+      "Aspartame",
+      "Acesulfame Potassium"
+    ],
+    "verified_carcinogen_hits": [
+      {
+        "ingredient": "Aspartame",
+        "cas_number": "22839-47-0",
+        "matched_name": "Aspartame",
+        "toxicity_type": "IARC Group 2B"
+      }
+    ],
+    "agent_response": {
+      "confirmed": [
+        {
+          "ingredient": "Aspartame",
+          "match": {
+            "cas_number": "22839-47-0",
+            "chemical_name": "Aspartame",
+            "jurisdiction": "global",
+            "source": "IARC (Vol. 134, 2023 - manually verified)",
+            "toxicity_type": "IARC Group 2B"
+          },
+          "score": 0.999685347
+        }
+      ],
+      "reasoned": [
+        {
+          "ingredient": "Carbonated Water",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Citric Acid",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Potassium Citrate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Natural Flavouring",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Acesulfame Potassium",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        }
+      ],
+      "summary": "1 confirmed hit(s), 5 ingredient(s) not yet checked."
+    }
+  },
+  {
+    "image": "image_corpus\\equal_pe.jpg",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "dextrose",
+      "maltodextrin",
+      "aspartame",
+      "acesulfame potassium"
+    ],
+    "verified_carcinogen_hits": [
+      {
+        "ingredient": "aspartame",
+        "cas_number": "22839-47-0",
+        "matched_name": "Aspartame",
+        "toxicity_type": "IARC Group 2B"
+      }
+    ],
+    "agent_response": {
+      "confirmed": [
+        {
+          "ingredient": "aspartame",
+          "match": {
+            "cas_number": "22839-47-0",
+            "chemical_name": "Aspartame",
+            "jurisdiction": "global",
+            "source": "IARC (Vol. 134, 2023 - manually verified)",
+            "toxicity_type": "IARC Group 2B"
+          },
+          "score": 0.999685347
+        }
+      ],
+      "reasoned": [
+        {
+          "ingredient": "dextrose",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "maltodextrin",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "acesulfame potassium",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        }
+      ],
+      "summary": "1 confirmed hit(s), 3 ingredient(s) not yet checked."
+    }
+  },
+  {
+    "image": "image_corpus\\fizz_ne.jpg",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "water",
+      "sugar",
+      "carbonating agent",
+      "acid (E330)",
+      "acidity regulators",
+      "citric acid (E330)",
+      "malic acid (E296)",
+      "flavourings",
+      "colour (E150d)",
+      "preservative (E211)",
+      "sodium benzoate (E211)",
+      "potassium sorbate (E202)"
+    ],
+    "verified_carcinogen_hits": [],
+    "agent_response": {
+      "confirmed": [],
+      "reasoned": [
+        {
+          "ingredient": "water",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "sugar",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "carbonating agent",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "acid (E330)",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "acidity regulators",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "citric acid (E330)",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "malic acid (E296)",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "flavourings",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "colour (E150d)",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "preservative (E211)",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "sodium benzoate (E211)",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "potassium sorbate (E202)",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        }
+      ],
+      "summary": "0 confirmed hit(s), 12 ingredient(s) not yet checked."
+    }
+  },
+  {
+    "image": "image_corpus\\fruit_jelly_ne.jpg",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "Glucose Syrup",
+      "Sugar",
+      "Dextrose",
+      "Modified Tapioca Starch",
+      "Modified Potato Starch",
+      "Citric Acid",
+      "Malic Acid",
+      "Lactic Acid",
+      "Rice Protein",
+      "Invert Sugar Syrup",
+      "E331",
+      "E332",
+      "Pectin",
+      "Flavourings",
+      "Paprika Extract",
+      "Coconut Oil",
+      "Palm Kernel Oil",
+      "Apple Concentrate",
+      "Blackcurrant Concentrate",
+      "Carrot Concentrate",
+      "Hibiscus Concentrate",
+      "Pumpkin Concentrate",
+      "Radish Concentrate",
+      "Tomato Concentrate",
+      "Carnauba Wax",
+      "Potato Protein"
+    ],
+    "verified_carcinogen_hits": [],
+    "agent_response": {
+      "confirmed": [],
+      "reasoned": [
+        {
+          "ingredient": "Glucose Syrup",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Sugar",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Dextrose",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Modified Tapioca Starch",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Modified Potato Starch",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Citric Acid",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Malic Acid",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Lactic Acid",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Rice Protein",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Invert Sugar Syrup",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "E331",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "E332",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Pectin",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Flavourings",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Paprika Extract",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Coconut Oil",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Palm Kernel Oil",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Apple",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Blackcurrant",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Carrot",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Hibiscus",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Pumpkin",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Radish",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Tomato",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Carnauba Wax",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Potato Protein",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        }
+      ],
+      "summary": "0 confirmed hit(s), 26 ingredient(s) not yet checked."
+    }
+  },
+  {
+    "image": "image_corpus\\lakme_powder_pt.jpg",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "Talc",
+      "Calcium Carbonate",
+      "Zinc Stearate",
+      "Magnesium Stearate",
+      "Aluminum Starch Octenylsuccinate",
+      "Perfume",
+      "Dipropylene Glycol",
+      "Titanium Dioxide",
+      "Aluminum Hydroxide",
+      "Stearic Acid",
+      "Niacinamide",
+      "Tocopheryl Acetate",
+      "Methylparaben",
+      "Pyridoxine Hydrochloride",
+      "Zinc Oxide",
+      "Octylmethoxy Cinnamate",
+      "Alpha-isomethyl Ionone",
+      "Benzyl Alcohol",
+      "Benzyl Salicylate",
+      "Cinnamyl Alcohol",
+      "Citral",
+      "Citronellol",
+      "Coumarin",
+      "Geraniol",
+      "Hexyl Cinnamal",
+      "Limonene",
+      "Linalool",
+      "CI 77491",
+      "CI 15850",
+      "CI 19140"
+    ],
+    "verified_carcinogen_hits": [
+      {
+        "ingredient": "Talc",
+        "cas_number": "14807-96-6",
+        "matched_name": "Talc-based body powder (perineal use of)",
+        "toxicity_type": "IARC Group 2B"
+      },
+      {
+        "ingredient": "Titanium Dioxide",
+        "cas_number": "13463-67-7",
+        "matched_name": "Titanium dioxide",
+        "toxicity_type": "IARC Group 2B"
+      }
+    ],
+    "agent_response": {
+      "confirmed": [
+        {
+          "ingredient": "Titanium Dioxide",
+          "match": {
+            "cas_number": "13463-67-7",
+            "chemical_name": "Titanium dioxide",
+            "jurisdiction": "global",
+            "source": "IARC",
+            "toxicity_type": "IARC Group 2B"
+          },
+          "score": 1.0015626
+        }
+      ],
+      "reasoned": [
+        {
+          "ingredient": "Talc",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Calcium Carbonate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Zinc Stearate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Magnesium Stearate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Aluminum Starch Octenylsuccinate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Perfume",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Dipropylene Glycol",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Aluminum Hydroxide",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Stearic Acid",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Niacinamide",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Tocopheryl Acetate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Methylparaben",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Pyridoxine Hydrochloride",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Zinc Oxide",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Octylmethoxy Cinnamate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Alpha-isomethyl Ionone",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Benzyl Alcohol",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Benzyl Salicylate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Cinnamyl Alcohol",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Citral",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Citronellol",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Coumarin",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Geraniol",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Hexyl Cinnamal",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Limonene",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Linalool",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "CI 77491",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "CI 15850",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "CI 19140",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        }
+      ],
+      "summary": "1 confirmed hit(s), 29 ingredient(s) not yet checked."
+    }
+  },
+  {
+    "image": "image_corpus\\protein_bar_ne.jpg",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "Oats",
+      "Honey",
+      "Cashew Butter",
+      "Caramelized Brown Rice Syrup",
+      "Pumpkin Seeds",
+      "Egg Whites",
+      "Almonds",
+      "Chocolate",
+      "High Oleic Sunflower Oil",
+      "Coconut Sugar",
+      "Oat Fiber",
+      "Cocoa",
+      "Natural Flavors",
+      "Sea Salt"
+    ],
+    "verified_carcinogen_hits": [],
+    "agent_response": {
+      "confirmed": [],
+      "reasoned": [
+        {
+          "ingredient": "Oats",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Honey",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Cashew Butter",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Caramelized Brown Rice Syrup",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Pumpkin Seeds",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Egg Whites",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Almonds",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Chocolate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "High Oleic Sunflower Oil",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Coconut Sugar",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Oat Fiber",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Cocoa",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Natural Flavors",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Sea Salt",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        }
+      ],
+      "summary": "0 confirmed hit(s), 14 ingredient(s) not yet checked."
+    }
+  },
+  {
+    "image": "image_corpus\\rite_pt.png",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "Sulfur",
+      "Salicylic acid",
+      "water",
+      "sodium lauryl sulfate",
+      "cocamidoethyl betaine",
+      "cocamide MEA",
+      "laureth-4",
+      "polyquaternium-20",
+      "bis-hydroxyethyl dimoniummonium chloride",
+      "PEG-120 methyl glucose dioleate",
+      "disodium EDTA",
+      "citric acid",
+      "phenoxethanol",
+      "fragrance",
+      "methylchloroisothiazolinone",
+      "methylisothiazolinone",
+      "red 40",
+      "blue 1",
+      "yellow 5",
+      "yellow 6"
+    ],
+    "verified_carcinogen_hits": [],
+    "agent_response": {
+      "confirmed": [],
+      "reasoned": [
+        {
+          "ingredient": "Sulfur",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Salicylic acid",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "water",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "sodium lauryl sulfate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "cocamidoethyl betaine",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "cocamide MEA",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "laureth-4",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "polyquaternium-20",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "bis-hydroxyethyl dimoniummonium chloride",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "PEG-120 methyl glucose dioleate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "disodium EDTA",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "citric acid",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "phenoxethanol",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "fragrance",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "methylchloroisothiazolinone",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "methylisothiazolinone",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "red 40",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "blue 1",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "yellow 5",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "yellow 6",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        }
+      ],
+      "summary": "0 confirmed hit(s), 20 ingredient(s) not yet checked."
+    }
+  },
+  {
+    "image": "image_corpus\\snickers_ne.jpg",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "Date Paste",
+      "Peanuts",
+      "Peanuts",
+      "Palm Oil",
+      "Glucose Syrup",
+      "Milk Chocolate",
+      "Sugar",
+      "Cocoa Butter",
+      "Skimmed Milk Powder",
+      "Cocoa Mass",
+      "Lactose",
+      "Whey Permeate",
+      "Milk",
+      "Palm Fat",
+      "Whey Powder",
+      "Milk",
+      "Milk Fat",
+      "Emulsifier",
+      "Soya Lecithin",
+      "Vanilla Extract",
+      "Raisins",
+      "Flavouring",
+      "Salt"
+    ],
+    "verified_carcinogen_hits": [],
+    "agent_response": {
+      "confirmed": [],
+      "reasoned": [
+        {
+          "ingredient": "Date Paste",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Peanuts",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Peanuts",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Palm Oil",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Glucose Syrup",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Milk Chocolate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Sugar",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Cocoa Butter",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Skimmed Milk Powder",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Cocoa Mass",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Lactose",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Whey Permeate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Milk",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Palm Fat",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Whey Powder",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Milk",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Milk Fat",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Emulsifier",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Soya Lecithin",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Vanilla Extract",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Raisins",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Flavouring",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Salt",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        }
+      ],
+      "summary": "0 confirmed hit(s), 23 ingredient(s) not yet checked."
+    }
+  },
+  {
+    "image": "image_corpus\\tarsum_pt.jpg",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "Coal Tar",
+      "Water",
+      "TEA-Lauryl Sulfate",
+      "Sodium Lauryl Sulfate",
+      "Cocamide DEA",
+      "Alcohol",
+      "Salicylic Acid",
+      "Sodium Chloride",
+      "Fragrance"
+    ],
+    "verified_carcinogen_hits": [
+      {
+        "ingredient": "Coal Tar",
+        "cas_number": "8007-45-2",
+        "matched_name": "Coal-tar distillation",
+        "toxicity_type": "IARC Group 1"
+      },
+      {
+        "ingredient": "Alcohol",
+        "cas_number": "64-17-5",
+        "matched_name": "Ethanol in alcoholic beverages",
+        "toxicity_type": "IARC Group 1"
+      }
+    ],
+    "agent_response": {
+      "confirmed": [
+        {
+          "ingredient": "Coal Tar",
+          "match": {
+            "cas_number": "8007-45-2",
+            "chemical_name": "Coal-tar distillation",
+            "jurisdiction": "global",
+            "source": "IARC",
+            "toxicity_type": "IARC Group 1"
+          },
+          "score": 0.800435543
+        }
+      ],
+      "reasoned": [
+        {
+          "ingredient": "Water",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "TEA-Lauryl Sulfate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Sodium Lauryl Sulfate",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Cocamide DEA",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Alcohol",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Salicylic Acid",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Sodium Chloride",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        },
+        {
+          "ingredient": "Fragrance",
+          "flag": "not yet checked",
+          "confidence_tier": "unknown"
+        }
+      ],
+      "summary": "1 confirmed hit(s), 8 ingredient(s) not yet checked."
+    }
+  },
+  {
+    "image": "image_corpus\\mac_lipstick_pt.jpg",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "OCTYLDODECANOL",
+      "RICINUS COMMUNIS (CASTOR) SEED OIL",
+      "SILICA",
+      "TRICAPRYLYL CITRATE",
+      "ISONONYL ISONONANOATE",
+      "OZOKERITE",
+      "PARAFFIN",
+      "PHENYL TRIMETHICONE",
+      "MICROCRYSTALLINE WAX",
+      "CAPRYLIC/CAPRIC TRIGLYCERIDE",
+      "COPERNICIA CERIFERA (CARNAUBA) WAX",
+      "ASCORBYL PALMITATE",
+      "TOCOPHEROL",
+      "STEARYL STEAROYL STEARATE",
+      "VANILLIN",
+      "BHT",
+      "MICA",
+      "TITANIUM DIOXIDE",
+      "IRON OXIDES",
+      "BLUE 1 LAKE",
+      "CARMINE",
+      "RED 6 LAKE",
+      "RED 7 LAKE",
+      "RED 21 LAKE",
+      "RED 28 LAKE",
+      "RED 30 LAKE",
+      "RED 33 LAKE",
+      "YELLOW 5 LAKE",
+      "YELLOW 6 LAKE"
+    ],
+    "verified_carcinogen_hits": [
+      {
+        "ingredient": "TITANIUM DIOXIDE",
+        "cas_number": "13463-67-7",
+        "matched_name": "Titanium dioxide",
+        "toxicity_type": "IARC Group 2B"
+      }
+    ],
+    "note": "Ingredient list manually transcribed from source image; Groq vision extraction hit output token limit on this product's unusually long ingredient list.",
+    "agent_response": {
+      "error": "500 Server Error: Internal Server Error for url: https://ingredient-agent-247055277121.us-central1.run.app/analyze"
+    }
+  }
+]

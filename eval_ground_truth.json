@@ -1,0 +1,510 @@
+[
+  {
+    "image": "image_corpus\\Avene_pt.jpg",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "TITANIUM DIOXIDE",
+      "ZINC OXIDE"
+    ],
+    "verified_carcinogen_hits": [
+      {
+        "ingredient": "TITANIUM DIOXIDE",
+        "cas_number": "13463-67-7",
+        "matched_name": "Titanium dioxide",
+        "toxicity_type": "IARC Group 2B"
+      }
+    ]
+  },
+  {
+    "image": "image_corpus\\Bisleri_ne.png",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "Treated Water",
+      "Minerals",
+      "Salts of Calcium",
+      "Magnesium",
+      "Potassium"
+    ],
+    "verified_carcinogen_hits": []
+  },
+  {
+    "image": "image_corpus\\Canderal_pe.jpg",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "Lactose",
+      "aspartaam",
+      "aspartaam APL",
+      "benzoesuur",
+      "natriumbenzoaat",
+      "acetylsulfam K",
+      "acetylsulfam K (E950)",
+      "stabilisator",
+      "microcristalline cellulose",
+      "verbinding natrium carboxymethylcellulose",
+      "magnesiumstearaat"
+    ],
+    "verified_carcinogen_hits": []
+  },
+  {
+    "image": "image_corpus\\DHS_nt.jpg",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "Salicylic Acid USP 3%",
+      "Purified Water",
+      "Sodium C14-16 Olefin Sulfonate",
+      "TEA Lauryl Sulfate",
+      "Cocamidopropyl Betaine",
+      "Cocamidopropyl Hydroxysultaine",
+      "PEG-8 Disteareate",
+      "Disodium EDTA"
+    ],
+    "verified_carcinogen_hits": []
+  },
+  {
+    "image": "image_corpus\\DHS_tar_pt.jpg",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "Purified Water",
+      "Sodium Laureth Sulfate",
+      "Cocamidopropyl Hydroxysultaine",
+      "PEG 8 Distearete",
+      "Sodium Chloride",
+      "Citric Acid"
+    ],
+    "verified_carcinogen_hits": []
+  },
+  {
+    "image": "image_corpus\\Neutrogena_nt.jpg",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "Salicylic Acid",
+      "Water",
+      "Sodium C14-16 Olefin Sulfonate",
+      "Cocamidopropyl Betaine",
+      "Polyquaternium-22",
+      "Sodium Citrate",
+      "Sodium Lauroyl Sarcosinate",
+      "Hexylene Glycol",
+      "Linoamidopropyl PG-Dimonium Chloride Phosphate"
+    ],
+    "verified_carcinogen_hits": []
+  },
+  {
+    "image": "image_corpus\\Nizoral_nt.png",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "benzyl alcohol",
+      "BHT",
+      "blue 1",
+      "citric acid",
+      "cocamide MEA",
+      "fragrance",
+      "glycol distearate",
+      "hydrochloric acid",
+      "hydroxypropyl methylcellulose",
+      "polyquaternium-7",
+      "sodium benzoate",
+      "sodium chloride",
+      "sodium cocoyl sarcosinate",
+      "sodium hydroxide",
+      "sodium laureth sulfate",
+      "tetrasodium EDTA",
+      "water"
+    ],
+    "verified_carcinogen_hits": []
+  },
+  {
+    "image": "image_corpus\\Thera_pt.jfif",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "Solubilized Coal Tar Extract",
+      "Coal Tar",
+      "water",
+      "sodium laureth sulfate",
+      "cocamide MEA",
+      "cocamidopropyl betaine",
+      "laureth-4",
+      "fragrance",
+      "polysorbate 20",
+      "citric acid",
+      "sodium chloride",
+      "tetrasodium EDTA",
+      "DMDM hydantoin",
+      "caramel",
+      "red 40"
+    ],
+    "verified_carcinogen_hits": [
+      {
+        "ingredient": "Solubilized Coal Tar Extract",
+        "cas_number": "8007-45-2",
+        "matched_name": "Coal-tar distillation",
+        "toxicity_type": "IARC Group 1"
+      },
+      {
+        "ingredient": "Coal Tar",
+        "cas_number": "8007-45-2",
+        "matched_name": "Coal-tar distillation",
+        "toxicity_type": "IARC Group 1"
+      }
+    ]
+  },
+  {
+    "image": "image_corpus\\allergy_info_ne.jpg",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "enriched wheat flour",
+      "sugar",
+      "glucose-fructose",
+      "dark chocolate chunk",
+      "chocolate liquor",
+      "sugar",
+      "dextrose",
+      "cocoa butter",
+      "milk ingredients",
+      "soya lecithin",
+      "natural flavour",
+      "chocolate chips",
+      "sugar",
+      "chocolate liquor",
+      "dextrose",
+      "cocoa butter",
+      "milk ingredients",
+      "soya lecithin",
+      "salt",
+      "artificial flavour",
+      "modified palm oil",
+      "cocoa powder",
+      "canola oil",
+      "soya oil",
+      "liquid whole eggs",
+      "sodium bicarbonate",
+      "salt",
+      "baking powder",
+      "soya lecithin",
+      "natural flavour",
+      "artificial flavour"
+    ],
+    "verified_carcinogen_hits": []
+  },
+  {
+    "image": "image_corpus\\bbread_ne.png",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "Whole Wheat Flour",
+      "Refined Wheat Flour",
+      "Water",
+      "Yeast",
+      "Sugar",
+      "Edible Common Salt",
+      "Edible Vegetable Oil",
+      "Palm",
+      "Wheat Gluten",
+      "Wheat Bran",
+      "Soya Flour",
+      "Emulsifiers",
+      "471",
+      "481",
+      "Class II Preservative",
+      "282",
+      "Condensed Milk",
+      "Antioxidant",
+      "300",
+      "Improver",
+      "1330",
+      "Acidity Regulator",
+      "260"
+    ],
+    "verified_carcinogen_hits": []
+  },
+  {
+    "image": "image_corpus\\coke_pe.jfif",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "Carbonated Water",
+      "Citric Acid",
+      "Potassium Citrate",
+      "Natural Flavouring",
+      "Aspartame",
+      "Acesulfame Potassium"
+    ],
+    "verified_carcinogen_hits": [
+      {
+        "ingredient": "Aspartame",
+        "cas_number": "22839-47-0",
+        "matched_name": "Aspartame",
+        "toxicity_type": "IARC Group 2B"
+      }
+    ]
+  },
+  {
+    "image": "image_corpus\\equal_pe.jpg",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "dextrose",
+      "maltodextrin",
+      "aspartame",
+      "acesulfame potassium"
+    ],
+    "verified_carcinogen_hits": [
+      {
+        "ingredient": "aspartame",
+        "cas_number": "22839-47-0",
+        "matched_name": "Aspartame",
+        "toxicity_type": "IARC Group 2B"
+      }
+    ]
+  },
+  {
+    "image": "image_corpus\\fizz_ne.jpg",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "water",
+      "sugar",
+      "carbonating agent",
+      "acid (E330)",
+      "acidity regulators",
+      "citric acid (E330)",
+      "malic acid (E296)",
+      "flavourings",
+      "colour (E150d)",
+      "preservative (E211)",
+      "sodium benzoate (E211)",
+      "potassium sorbate (E202)"
+    ],
+    "verified_carcinogen_hits": []
+  },
+  {
+    "image": "image_corpus\\fruit_jelly_ne.jpg",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "Glucose Syrup",
+      "Sugar",
+      "Dextrose",
+      "Modified Tapioca Starch",
+      "Modified Potato Starch",
+      "Citric Acid",
+      "Malic Acid",
+      "Lactic Acid",
+      "Rice Protein",
+      "Invert Sugar Syrup",
+      "E331",
+      "E332",
+      "Pectin",
+      "Flavourings",
+      "Paprika Extract",
+      "Coconut Oil",
+      "Palm Kernel Oil",
+      "Apple Concentrate",
+      "Blackcurrant Concentrate",
+      "Carrot Concentrate",
+      "Hibiscus Concentrate",
+      "Pumpkin Concentrate",
+      "Radish Concentrate",
+      "Tomato Concentrate",
+      "Carnauba Wax",
+      "Potato Protein"
+    ],
+    "verified_carcinogen_hits": []
+  },
+  {
+    "image": "image_corpus\\lakme_powder_pt.jpg",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "Talc",
+      "Calcium Carbonate",
+      "Zinc Stearate",
+      "Magnesium Stearate",
+      "Aluminum Starch Octenylsuccinate",
+      "Perfume",
+      "Dipropylene Glycol",
+      "Titanium Dioxide",
+      "Aluminum Hydroxide",
+      "Stearic Acid",
+      "Niacinamide",
+      "Tocopheryl Acetate",
+      "Methylparaben",
+      "Pyridoxine Hydrochloride",
+      "Zinc Oxide",
+      "Octylmethoxy Cinnamate",
+      "Alpha-isomethyl Ionone",
+      "Benzyl Alcohol",
+      "Benzyl Salicylate",
+      "Cinnamyl Alcohol",
+      "Citral",
+      "Citronellol",
+      "Coumarin",
+      "Geraniol",
+      "Hexyl Cinnamal",
+      "Limonene",
+      "Linalool",
+      "CI 77491",
+      "CI 15850",
+      "CI 19140"
+    ],
+    "verified_carcinogen_hits": [
+      {
+        "ingredient": "Talc",
+        "cas_number": "14807-96-6",
+        "matched_name": "Talc-based body powder (perineal use of)",
+        "toxicity_type": "IARC Group 2B"
+      },
+      {
+        "ingredient": "Titanium Dioxide",
+        "cas_number": "13463-67-7",
+        "matched_name": "Titanium dioxide",
+        "toxicity_type": "IARC Group 2B"
+      }
+    ]
+  },
+  {
+    "image": "image_corpus\\protein_bar_ne.jpg",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "Oats",
+      "Honey",
+      "Cashew Butter",
+      "Caramelized Brown Rice Syrup",
+      "Pumpkin Seeds",
+      "Egg Whites",
+      "Almonds",
+      "Chocolate",
+      "High Oleic Sunflower Oil",
+      "Coconut Sugar",
+      "Oat Fiber",
+      "Cocoa",
+      "Natural Flavors",
+      "Sea Salt"
+    ],
+    "verified_carcinogen_hits": []
+  },
+  {
+    "image": "image_corpus\\rite_pt.png",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "Sulfur",
+      "Salicylic acid",
+      "water",
+      "sodium lauryl sulfate",
+      "cocamidoethyl betaine",
+      "cocamide MEA",
+      "laureth-4",
+      "polyquaternium-20",
+      "bis-hydroxyethyl dimoniummonium chloride",
+      "PEG-120 methyl glucose dioleate",
+      "disodium EDTA",
+      "citric acid",
+      "phenoxethanol",
+      "fragrance",
+      "methylchloroisothiazolinone",
+      "methylisothiazolinone",
+      "red 40",
+      "blue 1",
+      "yellow 5",
+      "yellow 6"
+    ],
+    "verified_carcinogen_hits": []
+  },
+  {
+    "image": "image_corpus\\snickers_ne.jpg",
+    "product_type": "edible",
+    "extracted_ingredients": [
+      "Date Paste",
+      "Peanuts",
+      "Peanuts",
+      "Palm Oil",
+      "Glucose Syrup",
+      "Milk Chocolate",
+      "Sugar",
+      "Cocoa Butter",
+      "Skimmed Milk Powder",
+      "Cocoa Mass",
+      "Lactose",
+      "Whey Permeate",
+      "Milk",
+      "Palm Fat",
+      "Whey Powder",
+      "Milk",
+      "Milk Fat",
+      "Emulsifier",
+      "Soya Lecithin",
+      "Vanilla Extract",
+      "Raisins",
+      "Flavouring",
+      "Salt"
+    ],
+    "verified_carcinogen_hits": []
+  },
+  {
+    "image": "image_corpus\\tarsum_pt.jpg",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "Coal Tar",
+      "Water",
+      "TEA-Lauryl Sulfate",
+      "Sodium Lauryl Sulfate",
+      "Cocamide DEA",
+      "Alcohol",
+      "Salicylic Acid",
+      "Sodium Chloride",
+      "Fragrance"
+    ],
+    "verified_carcinogen_hits": [
+      {
+        "ingredient": "Coal Tar",
+        "cas_number": "8007-45-2",
+        "matched_name": "Coal-tar distillation",
+        "toxicity_type": "IARC Group 1"
+      },
+      {
+        "ingredient": "Alcohol",
+        "cas_number": "64-17-5",
+        "matched_name": "Ethanol in alcoholic beverages",
+        "toxicity_type": "IARC Group 1"
+      }
+    ]
+  },
+  {
+    "image": "image_corpus\\mac_lipstick_pt.jpg",
+    "product_type": "topical",
+    "extracted_ingredients": [
+      "OCTYLDODECANOL",
+      "RICINUS COMMUNIS (CASTOR) SEED OIL",
+      "SILICA",
+      "TRICAPRYLYL CITRATE",
+      "ISONONYL ISONONANOATE",
+      "OZOKERITE",
+      "PARAFFIN",
+      "PHENYL TRIMETHICONE",
+      "MICROCRYSTALLINE WAX",
+      "CAPRYLIC/CAPRIC TRIGLYCERIDE",
+      "COPERNICIA CERIFERA (CARNAUBA) WAX",
+      "ASCORBYL PALMITATE",
+      "TOCOPHEROL",
+      "STEARYL STEAROYL STEARATE",
+      "VANILLIN",
+      "BHT",
+      "MICA",
+      "TITANIUM DIOXIDE",
+      "IRON OXIDES",
+      "BLUE 1 LAKE",
+      "CARMINE",
+      "RED 6 LAKE",
+      "RED 7 LAKE",
+      "RED 21 LAKE",
+      "RED 28 LAKE",
+      "RED 30 LAKE",
+      "RED 33 LAKE",
+      "YELLOW 5 LAKE",
+      "YELLOW 6 LAKE"
+    ],
+    "verified_carcinogen_hits": [
+      {
+        "ingredient": "TITANIUM DIOXIDE",
+        "cas_number": "13463-67-7",
+        "matched_name": "Titanium dioxide",
+        "toxicity_type": "IARC Group 2B"
+      }
+    ],
+    "note": "Ingredient list manually transcribed from source image; Groq vision extraction hit output token limit on this product's unusually long ingredient list."
+  }
+]
