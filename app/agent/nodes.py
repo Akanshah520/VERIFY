@@ -19,7 +19,7 @@ def extract_ingredients(state: AgentState) -> AgentState:
         model="qwen/qwen3.6-27b",
         reasoning_effort="none",
         response_format={"type": "json_object"},
-        max_completion_tokens=8192,
+        max_completion_tokens=512,
         messages=[{
             "role": "user",
             "content": [
