@@ -67,12 +67,30 @@ def kb_lookup(state: AgentState) -> AgentState:
 
     confirmed, unmatched = [], []
     for name, vec in zip(names, vectors):
-        result = kb_index.query(vector=vec.tolist(), top_k=1, include_metadata=True)
-        match = result["matches"][0] if result["matches"] else None
-        if match and match["score"] >= 0.80:
-            confirmed.append({"ingredient": name, "match": match["metadata"], "score": match["score"]})
-        else:
-            unmatched.append(name)
+    result = kb_index.query(
+        vector=vec.tolist(),
+        top_k=3,
+        include_metadata=True
+    )
+
+    print(f"\n=== INGREDIENT: {name} ===")
+
+    for m in result["matches"]:
+        print(
+            "score =", m["score"],
+            "| metadata =", m["metadata"]
+        )
+
+    match = result["matches"][0] if result["matches"] else None
+
+    if match and match["score"] >= 0.80:
+        confirmed.append({
+            "ingredient": name,
+            "match": match["metadata"],
+            "score": match["score"]
+        })
+    else:
+        unmatched.append(name)
     return {**state, "confirmed_hits": confirmed, "unmatched": unmatched}
 
 def reason_unmatched(state: AgentState) -> AgentState:
