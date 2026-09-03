@@ -117,37 +117,57 @@
     "agent_response": {
       "summary": "\u2705 No known carcinogens identified in this product's ingredient list.",
       "flagged_ingredients": [],
-      "ingredients_not_evaluated": 7,
+      "ingredients_not_evaluated": 11,
       "_details": {
         "confirmed_hits": [],
         "reasoned_hits": [
           {
-            "ingredient": "Lactose (afgeleid van melk)",
+            "ingredient": "Lactose",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "zuurstofopname RT1",
+            "ingredient": "aspartaam",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "bevattend een bron van [propylgallaat]",
+            "ingredient": "aspartaam APL",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "oxyde K-3 (371)",
+            "ingredient": "benzoesuur",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "stabilisator: microcristalline cellulose",
+            "ingredient": "natriumbenzoaat",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "verbonden natrium carboxymethylcellulose",
+            "ingredient": "acetylsulfam K",
+            "flag": "not yet checked",
+            "confidence_tier": "unknown"
+          },
+          {
+            "ingredient": "acetylsulfam K (E950)",
+            "flag": "not yet checked",
+            "confidence_tier": "unknown"
+          },
+          {
+            "ingredient": "stabilisator",
+            "flag": "not yet checked",
+            "confidence_tier": "unknown"
+          },
+          {
+            "ingredient": "microcristalline cellulose",
+            "flag": "not yet checked",
+            "confidence_tier": "unknown"
+          },
+          {
+            "ingredient": "verbinding natrium carboxymethylcellulose",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
@@ -395,7 +415,7 @@
               "source": "IARC",
               "toxicity_type": "IARC Group 2B"
             },
-            "score": 0.825346947
+            "score": 0.82534647
           }
         ],
         "reasoned_hits": [
@@ -540,7 +560,7 @@
               "source": "IARC",
               "toxicity_type": "IARC Group 1"
             },
-            "score": 0.800435543
+            "score": 0.800434113
           }
         ],
         "reasoned_hits": [
@@ -1018,7 +1038,7 @@
               "source": "IARC (Vol. 134, 2023 - manually verified)",
               "toxicity_type": "IARC Group 2B"
             },
-            "score": 0.999684453
+            "score": 0.999684393
           }
         ],
         "reasoned_hits": [
@@ -1072,7 +1092,7 @@
       "summary": "\u26a0\ufe0f 1 ingredient(s) flagged as known/possible carcinogens.",
       "flagged_ingredients": [
         {
-          "ingredient": "Aspartame",
+          "ingredient": "aspartame",
           "classification": "IARC Group 2B",
           "source": "IARC (Vol. 134, 2023 - manually verified)",
           "confidence_score": 1.0,
@@ -1083,7 +1103,7 @@
       "_details": {
         "confirmed_hits": [
           {
-            "ingredient": "Aspartame",
+            "ingredient": "aspartame",
             "match": {
               "cas_number": "22839-47-0",
               "chemical_name": "Aspartame",
@@ -1091,22 +1111,22 @@
               "source": "IARC (Vol. 134, 2023 - manually verified)",
               "toxicity_type": "IARC Group 2B"
             },
-            "score": 0.999684453
+            "score": 0.999684393
           }
         ],
         "reasoned_hits": [
           {
-            "ingredient": "Dextrose",
+            "ingredient": "dextrose",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "Maltodextrin",
+            "ingredient": "maltodextrin",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "Acesulfame Potassium",
+            "ingredient": "acesulfame potassium",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           }
@@ -1190,12 +1210,12 @@
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "caffeine",
+            "ingredient": "sodium benzoate (E211)",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "quercetin",
+            "ingredient": "potassium sorbate (E202)",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           }
@@ -1429,7 +1449,7 @@
       "summary": "\u26a0\ufe0f 1 ingredient(s) flagged as known/possible carcinogens.",
       "flagged_ingredients": [
         {
-          "ingredient": "TITANIUM DIOXIDE",
+          "ingredient": "Titanium Dioxide",
           "classification": "IARC Group 2B",
           "source": "IARC",
           "confidence_score": 1.0,
@@ -1440,7 +1460,7 @@
       "_details": {
         "confirmed_hits": [
           {
-            "ingredient": "TITANIUM DIOXIDE",
+            "ingredient": "Titanium Dioxide",
             "match": {
               "cas_number": "13463-67-7",
               "chemical_name": "Titanium dioxide",
@@ -1448,137 +1468,137 @@
               "source": "IARC",
               "toxicity_type": "IARC Group 2B"
             },
-            "score": 1.0015626
+            "score": 1.00156212
           }
         ],
         "reasoned_hits": [
           {
-            "ingredient": "TALC",
+            "ingredient": "Talc",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "CALCIUM CARBONATE",
+            "ingredient": "Calcium Carbonate",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "ZINC STEARATE",
+            "ingredient": "Zinc Stearate",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "MAGNESIUM STEARATE",
+            "ingredient": "Magnesium Stearate",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "ALUMINUM STARCH OCTENYLSUCCINATE",
+            "ingredient": "Aluminum Starch Octenylsuccinate",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "PERFUME",
+            "ingredient": "Perfume",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "DIPROPYLENE GLYCOL",
+            "ingredient": "Dipropylene Glycol",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "ALUMINUM HYDROXIDE",
+            "ingredient": "Aluminum Hydroxide",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "STEARIC ACID",
+            "ingredient": "Stearic Acid",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "NIACINAMIDE",
+            "ingredient": "Niacinamide",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "TOCOPHERYL ACETATE",
+            "ingredient": "Tocopheryl Acetate",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "METHYL PARABEN",
+            "ingredient": "Methylparaben",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "PYRIDOXINE HYDROCHLORIDE",
+            "ingredient": "Pyridoxine Hydrochloride",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "ZINC OXIDE",
+            "ingredient": "Zinc Oxide",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "OCTYLMETHOXY CINNAMATE",
+            "ingredient": "Octylmethoxy Cinnamate",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "ALPHA-ISOMETHYL IONONE",
+            "ingredient": "Alpha-isomethyl Ionone",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "BENZYL ALCOHOL",
+            "ingredient": "Benzyl Alcohol",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "BENZYL SALICYLATE",
+            "ingredient": "Benzyl Salicylate",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "CINNAMYL ALCOHOL",
+            "ingredient": "Cinnamyl Alcohol",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "CITRAL",
+            "ingredient": "Citral",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "CITRONELLOL",
+            "ingredient": "Citronellol",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "COUMARIN",
+            "ingredient": "Coumarin",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "GERANIOL",
+            "ingredient": "Geraniol",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "HEXYL CINNAMAL",
+            "ingredient": "Hexyl Cinnamal",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "LIMONENE",
+            "ingredient": "Limonene",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "LINALOOL",
+            "ingredient": "Linalool",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
@@ -2045,7 +2065,7 @@
               "source": "IARC",
               "toxicity_type": "IARC Group 1"
             },
-            "score": 0.800435543
+            "score": 0.800434113
           }
         ],
         "reasoned_hits": [

@@ -19,7 +19,7 @@ def extract_ingredients(state: AgentState) -> AgentState:
         model="qwen/qwen3.6-27b",
         reasoning_effort="none",
         response_format={"type": "json_object"},
-        max_completion_tokens=512,
+        max_completion_tokens=1024,
         messages=[{
             "role": "user",
             "content": [
@@ -67,30 +67,26 @@ def kb_lookup(state: AgentState) -> AgentState:
 
     confirmed, unmatched = [], []
     for name, vec in zip(names, vectors):
-    result = kb_index.query(
-        vector=vec.tolist(),
-        top_k=3,
-        include_metadata=True
-    )
+        result = kb_index.query(vector=vec.tolist(), top_k=3, include_metadata=True)
 
-    print(f"\n=== INGREDIENT: {name} ===")
+        print(f"\n=== INGREDIENT: {name} ===")
+        for m in result["matches"]:
+            print(
+                "score =", m["score"],
+                "| metadata =", m["metadata"]
+            )
 
-    for m in result["matches"]:
-        print(
-            "score =", m["score"],
-            "| metadata =", m["metadata"]
-        )
+        match = result["matches"][0] if result["matches"] else None
 
-    match = result["matches"][0] if result["matches"] else None
+        if match and match["score"] >= 0.80:
+            confirmed.append({
+                "ingredient": name,
+                "match": match["metadata"],
+                "score": match["score"]
+            })
+        else:
+            unmatched.append(name)
 
-    if match and match["score"] >= 0.80:
-        confirmed.append({
-            "ingredient": name,
-            "match": match["metadata"],
-            "score": match["score"]
-        })
-    else:
-        unmatched.append(name)
     return {**state, "confirmed_hits": confirmed, "unmatched": unmatched}
 
 def reason_unmatched(state: AgentState) -> AgentState:
@@ -134,7 +130,7 @@ def synthesize_report(state: AgentState) -> AgentState:
         "summary": summary,
         "flagged_ingredients": flagged,
         "ingredients_not_evaluated": len(state["unmatched"]),
-        "_details": {  # full technical breakdown, kept but not the headline
+        "_details": {
             "confirmed_hits": state["confirmed_hits"],
             "reasoned_hits": state["reasoned_hits"],
         },
