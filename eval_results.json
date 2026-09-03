@@ -37,7 +37,7 @@
               "source": "IARC",
               "toxicity_type": "IARC Group 2B"
             },
-            "score": 1.0015626
+            "score": 1.00156307
           }
         ],
         "reasoned_hits": [
@@ -117,57 +117,37 @@
     "agent_response": {
       "summary": "\u2705 No known carcinogens identified in this product's ingredient list.",
       "flagged_ingredients": [],
-      "ingredients_not_evaluated": 11,
+      "ingredients_not_evaluated": 7,
       "_details": {
         "confirmed_hits": [],
         "reasoned_hits": [
           {
-            "ingredient": "Lactose",
+            "ingredient": "Lactose (afgeleid van melk)",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "aspartaam",
+            "ingredient": "zuurstofopname RT1",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "aspartaam APL",
+            "ingredient": "bevattend een bron van [propylgallaat]",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "benzoesuur",
+            "ingredient": "oxyde K-3 (371)",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "natriumbenzoaat",
+            "ingredient": "stabilisator: microcristalline cellulose",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "acetylsulfam K",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "acetylsulfam K (E950)",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "stabilisator",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "microcristalline cellulose",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "verbinding natrium carboxymethylcellulose",
+            "ingredient": "verbonden natrium carboxymethylcellulose",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
@@ -415,7 +395,7 @@
               "source": "IARC",
               "toxicity_type": "IARC Group 2B"
             },
-            "score": 0.82534647
+            "score": 0.825346351
           }
         ],
         "reasoned_hits": [
@@ -560,7 +540,7 @@
               "source": "IARC",
               "toxicity_type": "IARC Group 1"
             },
-            "score": 0.800434113
+            "score": 0.800435066
           }
         ],
         "reasoned_hits": [
@@ -1016,31 +996,11 @@
       }
     ],
     "agent_response": {
-      "summary": "\u26a0\ufe0f 1 ingredient(s) flagged as known/possible carcinogens.",
-      "flagged_ingredients": [
-        {
-          "ingredient": "Aspartame",
-          "classification": "IARC Group 2B",
-          "source": "IARC (Vol. 134, 2023 - manually verified)",
-          "confidence_score": 1.0,
-          "confidence_label": "High confidence"
-        }
-      ],
-      "ingredients_not_evaluated": 5,
+      "summary": "\u2705 No known carcinogens identified in this product's ingredient list.",
+      "flagged_ingredients": [],
+      "ingredients_not_evaluated": 4,
       "_details": {
-        "confirmed_hits": [
-          {
-            "ingredient": "Aspartame",
-            "match": {
-              "cas_number": "22839-47-0",
-              "chemical_name": "Aspartame",
-              "jurisdiction": "global",
-              "source": "IARC (Vol. 134, 2023 - manually verified)",
-              "toxicity_type": "IARC Group 2B"
-            },
-            "score": 0.999684393
-          }
-        ],
+        "confirmed_hits": [],
         "reasoned_hits": [
           {
             "ingredient": "Carbonated Water",
@@ -1059,11 +1019,6 @@
           },
           {
             "ingredient": "Natural Flavouring",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "Acesulfame Potassium",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           }
@@ -1111,7 +1066,7 @@
               "source": "IARC (Vol. 134, 2023 - manually verified)",
               "toxicity_type": "IARC Group 2B"
             },
-            "score": 0.999684393
+            "score": 0.999685287
           }
         ],
         "reasoned_hits": [
@@ -1210,12 +1165,12 @@
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "sodium benzoate (E211)",
+            "ingredient": "caffeine",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "potassium sorbate (E202)",
+            "ingredient": "quercetin",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           }
@@ -1468,7 +1423,7 @@
               "source": "IARC",
               "toxicity_type": "IARC Group 2B"
             },
-            "score": 1.00156212
+            "score": 1.0015626
           }
         ],
         "reasoned_hits": [
@@ -1751,32 +1706,22 @@
     "agent_response": {
       "summary": "\u2705 No known carcinogens identified in this product's ingredient list.",
       "flagged_ingredients": [],
-      "ingredients_not_evaluated": 20,
+      "ingredients_not_evaluated": 18,
       "_details": {
         "confirmed_hits": [],
         "reasoned_hits": [
-          {
-            "ingredient": "Sulfur",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "Salicylic acid",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
           {
             "ingredient": "water",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "sodium lauryl sulfate",
+            "ingredient": "sodium lauril sulfate",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "cocamidoethyl betaine",
+            "ingredient": "cocamopropyl betaine",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
@@ -1796,7 +1741,7 @@
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "bis-hydroxyethyl dimoniummonium chloride",
+            "ingredient": "bis-hydroxyethyl dimonium chloride",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
@@ -1816,7 +1761,7 @@
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "phenoxethanol",
+            "ingredient": "phenoxyethanol",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
@@ -2065,7 +2010,7 @@
               "source": "IARC",
               "toxicity_type": "IARC Group 1"
             },
-            "score": 0.800434113
+            "score": 0.800435066
           }
         ],
         "reasoned_hits": [

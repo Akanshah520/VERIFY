@@ -1,7 +1,7 @@
 import os
 import json
 from dotenv import load_dotenv
-from groq import Groq
+from groq import Groq, BadRequestError
 from pinecone import Pinecone
 from sentence_transformers import SentenceTransformer
 
@@ -14,12 +14,12 @@ kb_index = pc.Index("ingredient-carcinogens")
 embed_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 
-def extract_ingredients(state: AgentState) -> AgentState:
-    response = groq_client.chat.completions.create(
+def _call_extraction(image_b64: str, max_tokens: int):
+    return groq_client.chat.completions.create(
         model="qwen/qwen3.6-27b",
         reasoning_effort="none",
         response_format={"type": "json_object"},
-        max_completion_tokens=1024,
+        max_completion_tokens=max_tokens,
         messages=[{
             "role": "user",
             "content": [
@@ -29,11 +29,25 @@ def extract_ingredients(state: AgentState) -> AgentState:
                     '{"ingredients": ["ingredient one", "ingredient two", ...]}. '
                     "Split compound/bracketed ingredients into their individual components."
                 )},
-                {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{state['image_b64']}"}},
+                {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{image_b64}"}},
             ],
         }],
         temperature=0,
     )
+
+
+def extract_ingredients(state: AgentState) -> AgentState:
+    try:
+        response = _call_extraction(state["image_b64"], max_tokens=2048)
+    except BadRequestError as e:
+        if getattr(e, "code", None) == "json_validate_failed" or "json_validate_failed" in str(e):
+            # Same failure mode we hit on mac_lipstick_pt: output ran long,
+            # cap hit before the JSON document closed. Retry once with more room.
+            print("--- extraction hit token cap before valid JSON, retrying with higher cap ---")
+            response = _call_extraction(state["image_b64"], max_tokens=4096)
+        else:
+            raise
+
     raw = response.choices[0].message.content
     try:
         parsed = json.loads(raw)
@@ -61,8 +75,6 @@ def kb_lookup(state: AgentState) -> AgentState:
     if not names:
         return {**state, "confirmed_hits": [], "unmatched": []}
 
-    # Batch-encode everything in one call instead of looping -- this was
-    # previously N separate compute calls; now it's one.
     vectors = embed_model.encode(names, normalize_embeddings=True)
 
     confirmed, unmatched = [], []
