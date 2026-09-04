@@ -15,38 +15,13 @@
       }
     ],
     "agent_response": {
-      "summary": "\u26a0\ufe0f 1 ingredient(s) flagged as known/possible carcinogens.",
-      "flagged_ingredients": [
-        {
-          "ingredient": "TITANIUM DIOXIDE",
-          "classification": "IARC Group 2B",
-          "source": "IARC",
-          "confidence_score": 1.0,
-          "confidence_label": "High confidence"
-        }
-      ],
-      "ingredients_not_evaluated": 1,
+      "summary": "\u26a0\ufe0f Unable to reliably extract ingredients: Rate limit reached (Groq output tokens/minute); please retry shortly.",
+      "flagged_ingredients": [],
+      "ingredients_not_evaluated": null,
       "_details": {
-        "confirmed_hits": [
-          {
-            "ingredient": "TITANIUM DIOXIDE",
-            "match": {
-              "cas_number": "13463-67-7",
-              "chemical_name": "Titanium dioxide",
-              "jurisdiction": "global",
-              "source": "IARC",
-              "toxicity_type": "IARC Group 2B"
-            },
-            "score": 1.0015626
-          }
-        ],
-        "reasoned_hits": [
-          {
-            "ingredient": "ZINC OXIDE",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          }
-        ]
+        "confirmed_hits": [],
+        "reasoned_hits": [],
+        "extraction_error": "Rate limit reached (Groq output tokens/minute); please retry shortly."
       }
     }
   },
@@ -62,38 +37,13 @@
     ],
     "verified_carcinogen_hits": [],
     "agent_response": {
-      "summary": "\u2705 No known carcinogens identified in this product's ingredient list.",
+      "summary": "\u26a0\ufe0f Unable to reliably extract ingredients: Rate limit reached (Groq output tokens/minute); please retry shortly.",
       "flagged_ingredients": [],
-      "ingredients_not_evaluated": 5,
+      "ingredients_not_evaluated": null,
       "_details": {
         "confirmed_hits": [],
-        "reasoned_hits": [
-          {
-            "ingredient": "Treated Water",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "Minerals",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "Salts of Calcium",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "Magnesium",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "Potassium",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          }
-        ]
+        "reasoned_hits": [],
+        "extraction_error": "Rate limit reached (Groq output tokens/minute); please retry shortly."
       }
     }
   },
@@ -115,48 +65,13 @@
     ],
     "verified_carcinogen_hits": [],
     "agent_response": {
-      "summary": "\u2705 No known carcinogens identified in this product's ingredient list.",
+      "summary": "\u26a0\ufe0f Unable to reliably extract ingredients: Rate limit reached (Groq output tokens/minute); please retry shortly.",
       "flagged_ingredients": [],
-      "ingredients_not_evaluated": 7,
+      "ingredients_not_evaluated": null,
       "_details": {
         "confirmed_hits": [],
-        "reasoned_hits": [
-          {
-            "ingredient": "Lactose (afgeleid van melk)",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "zuurstofopname RT1",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "bevattend een bron van [propylgallaat]",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "oxyde K-3 (371)",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "stabilisator: microcristalline cellulose",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "verbonden natrium carboxymethylcellulose",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "magnesiumstearaat",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          }
-        ]
+        "reasoned_hits": [],
+        "extraction_error": "Rate limit reached (Groq output tokens/minute); please retry shortly."
       }
     }
   },
@@ -175,53 +90,13 @@
     ],
     "verified_carcinogen_hits": [],
     "agent_response": {
-      "summary": "\u2705 No known carcinogens identified in this product's ingredient list.",
+      "summary": "\u26a0\ufe0f Unable to reliably extract ingredients: Rate limit reached (Groq output tokens/minute); please retry shortly.",
       "flagged_ingredients": [],
-      "ingredients_not_evaluated": 8,
+      "ingredients_not_evaluated": null,
       "_details": {
         "confirmed_hits": [],
-        "reasoned_hits": [
-          {
-            "ingredient": "Salicylic Acid USP 3%",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "Purified Water",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "Sodium C14-16 Olefin Sulfonate",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "TEA Lauryl Sulfate",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "Cocamidopropyl Betaine",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "Cocamidopropyl Hydroxysultaine",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "PEG-8 Disteareate",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "Disodium EDTA",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          }
-        ]
+        "reasoned_hits": [],
+        "extraction_error": "Rate limit reached (Groq output tokens/minute); please retry shortly."
       }
     }
   },
@@ -238,43 +113,13 @@
     ],
     "verified_carcinogen_hits": [],
     "agent_response": {
-      "summary": "\u2705 No known carcinogens identified in this product's ingredient list.",
+      "summary": "\u26a0\ufe0f Unable to reliably extract ingredients: Rate limit reached (Groq output tokens/minute); please retry shortly.",
       "flagged_ingredients": [],
-      "ingredients_not_evaluated": 6,
+      "ingredients_not_evaluated": null,
       "_details": {
         "confirmed_hits": [],
-        "reasoned_hits": [
-          {
-            "ingredient": "Purified Water",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "Sodium Laureth Sulfate",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "Cocamidopropyl Hydroxysultaine",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "PEG 8 Disteareate",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "Sodium Chloride",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "Citric Acid",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          }
-        ]
+        "reasoned_hits": [],
+        "extraction_error": "Rate limit reached (Groq output tokens/minute); please retry shortly."
       }
     }
   },
@@ -656,168 +501,13 @@
     ],
     "verified_carcinogen_hits": [],
     "agent_response": {
-      "summary": "\u2705 No known carcinogens identified in this product's ingredient list.",
+      "summary": "\u26a0\ufe0f Unable to reliably extract ingredients: Rate limit reached (Groq output tokens/minute); please retry shortly.",
       "flagged_ingredients": [],
-      "ingredients_not_evaluated": 31,
+      "ingredients_not_evaluated": null,
       "_details": {
         "confirmed_hits": [],
-        "reasoned_hits": [
-          {
-            "ingredient": "enriched wheat flour",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "sugar",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "glucose-fructose",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "dark chocolate chunk",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "chocolate liquor",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "sugar",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "dextrose",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "cocoa butter",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "milk ingredients",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "soya lecithin",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "natural flavour",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "chocolate chips",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "sugar",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "chocolate liquor",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "dextrose",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "cocoa butter",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "milk ingredients",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "soya lecithin",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "salt",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "artificial flavour",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "modified palm oil",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "cocoa powder",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "canola oil",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "soya oil",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "liquid whole eggs",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "sodium bicarbonate",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "salt",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "baking powder",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "soya lecithin",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "natural flavour",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          },
-          {
-            "ingredient": "artificial flavour",
-            "flag": "not yet checked",
-            "confidence_tier": "unknown"
-          }
-        ]
+        "reasoned_hits": [],
+        "extraction_error": "Rate limit reached (Groq output tokens/minute); please retry shortly."
       }
     }
   },
@@ -1190,12 +880,12 @@
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "sodium benzoate (E211)",
+            "ingredient": "caffeine",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           },
           {
-            "ingredient": "potassium sorbate (E202)",
+            "ingredient": "quercetin",
             "flag": "not yet checked",
             "confidence_tier": "unknown"
           }
@@ -2137,7 +1827,14 @@
     ],
     "note": "Ingredient list manually transcribed from source image; Groq vision extraction hit output token limit on this product's unusually long ingredient list.",
     "agent_response": {
-      "error": "500 Server Error: Internal Server Error for url: https://ingredient-agent-247055277121.us-central1.run.app/analyze"
+      "summary": "\u26a0\ufe0f Unable to reliably extract ingredients: Ingredient list too long/complex to extract reliably; manual review recommended.",
+      "flagged_ingredients": [],
+      "ingredients_not_evaluated": null,
+      "_details": {
+        "confirmed_hits": [],
+        "reasoned_hits": [],
+        "extraction_error": "Ingredient list too long/complex to extract reliably; manual review recommended."
+      }
     }
   }
 ]
