@@ -1,7 +1,7 @@
 import os
 import json
 from dotenv import load_dotenv
-from groq import Groq, BadRequestError
+from groq import Groq, BadRequestError, RateLimitError
 from pinecone import Pinecone
 from sentence_transformers import SentenceTransformer
 
@@ -39,6 +39,13 @@ def _call_extraction(image_b64: str, max_tokens: int):
 def extract_ingredients(state: AgentState) -> AgentState:
     try:
         response = _call_extraction(state["image_b64"], max_tokens=2048)
+    except RateLimitError:
+        print("--- Groq output-tokens-per-minute limit hit; returning partial failure ---")
+        return {
+            **state,
+            "raw_ingredients": [],
+            "extraction_error": "Rate limit reached (Groq output tokens/minute); please retry shortly.",
+        }
     except BadRequestError as e:
         if getattr(e, "code", None) == "json_validate_failed" or "json_validate_failed" in str(e):
             print("--- extraction hit token cap before valid JSON, retrying with higher cap ---")
@@ -55,7 +62,7 @@ def extract_ingredients(state: AgentState) -> AgentState:
                 raise
         else:
             raise
-
+        
     raw = response.choices[0].message.content
     try:
         parsed = json.loads(raw)
