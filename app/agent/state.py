@@ -9,4 +9,5 @@ class AgentState(TypedDict):
     confirmed_hits: List[Dict]
     unmatched: List[str]
     reasoned_hits: List[Dict]
+    extraction_error: Optional[str]
     report: Optional[Dict]

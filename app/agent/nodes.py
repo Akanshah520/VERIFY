@@ -41,10 +41,18 @@ def extract_ingredients(state: AgentState) -> AgentState:
         response = _call_extraction(state["image_b64"], max_tokens=2048)
     except BadRequestError as e:
         if getattr(e, "code", None) == "json_validate_failed" or "json_validate_failed" in str(e):
-            # Same failure mode we hit on mac_lipstick_pt: output ran long,
-            # cap hit before the JSON document closed. Retry once with more room.
             print("--- extraction hit token cap before valid JSON, retrying with higher cap ---")
-            response = _call_extraction(state["image_b64"], max_tokens=4096)
+            try:
+                response = _call_extraction(state["image_b64"], max_tokens=4096)
+            except BadRequestError as e2:
+                if getattr(e2, "code", None) == "json_validate_failed" or "json_validate_failed" in str(e2):
+                    print("--- retry also hit token cap; returning partial failure instead of crashing ---")
+                    return {
+                        **state,
+                        "raw_ingredients": [],
+                        "extraction_error": "Ingredient list too long/complex to extract reliably; manual review recommended.",
+                    }
+                raise
         else:
             raise
 
@@ -57,7 +65,6 @@ def extract_ingredients(state: AgentState) -> AgentState:
         print(raw)
         raise
     return {**state, "raw_ingredients": ingredients}
-
 
 INS_DECODER = {}  # filled in later, once the KB knowledge-base step is built
 
@@ -122,6 +129,19 @@ def confidence_label(score: float) -> str:
 
 
 def synthesize_report(state: AgentState) -> AgentState:
+    if state.get("extraction_error"):
+        report = {
+            "summary": f"⚠️ Unable to reliably extract ingredients: {state['extraction_error']}",
+            "flagged_ingredients": [],
+            "ingredients_not_evaluated": None,
+            "_details": {
+                "confirmed_hits": [],
+                "reasoned_hits": [],
+                "extraction_error": state["extraction_error"],
+            },
+        }
+        return {**state, "report": report}
+
     flagged = []
     for hit in state["confirmed_hits"]:
         match = hit["match"]
