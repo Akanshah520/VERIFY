@@ -16,7 +16,7 @@ embed_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 def _call_extraction(image_b64: str, max_tokens: int):
     return groq_client.chat.completions.create(
-        model="qwen/qwen3.6-27b",
+        model="qwen/qwen3.8-27b",
         reasoning_effort="none",
         response_format={"type": "json_object"},
         max_completion_tokens=max_tokens,
